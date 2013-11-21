@@ -1,0 +1,6 @@
+acme_films_homepage:
+    pattern:  /
+    defaults: { _controller: AcmeFilmsBundle:Default:filmsList }
+acme_films_film:
+    pattern: /film/{name}
+    defaul  
